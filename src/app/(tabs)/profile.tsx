@@ -1,10 +1,10 @@
 import { theme } from "@/theme";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Home() {
+export default function Profile() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Index</Text>
+      <Text style={styles.text}>Profile</Text>
     </View>
   );
 }
